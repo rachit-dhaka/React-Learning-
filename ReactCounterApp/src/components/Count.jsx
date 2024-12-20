@@ -4,7 +4,7 @@ import './Count.css'
 const Count = () => {
   return (
     <div className="count-container">
-        <p id='title'>The button is clicked 0 times</p>
+        <p id='title'>The Button is clicked 0 times</p>
         <button id='btn'>Dabaoo</button>
     </div>
   )
