@@ -13,9 +13,6 @@ function App() {
   }
 
   return (
-
-      
-    
     <div>
      <Button ifClick={clicking} text="Rachit" >
 
@@ -25,10 +22,7 @@ function App() {
    
  )
   
-
-  }
-
-  
+} 
 
 
 export default App
