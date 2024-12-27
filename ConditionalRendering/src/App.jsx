@@ -8,13 +8,19 @@ function App() {
   
   const[isLoggedIn , setLoggedIn]=useState(true);
 
-
-
-  return ( 
+  return (
     <div>
-      {isLoggedIn? <LogoutBtn/> : <LoginBtn/>}
+      <h1>welcome je</h1>
     </div>
   )
+
+
+
+  // return ( 
+  //   <div>
+  //     {isLoggedIn? <LogoutBtn/> : <LoginBtn/>}
+  //   </div>
+  // )
 
 
 
