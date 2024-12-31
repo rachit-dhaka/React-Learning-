@@ -9,7 +9,7 @@ function App() {
 
   return (
    <div>
-      <button onClick={HandleClick}>
+      <button className='something' onClick={HandleClick} >
         Click Me
       </button> 
    </div>

@@ -13,3 +13,8 @@ body{
     align-items: center;
 
 }
+
+.something{
+    padding: 0.7rem;
+    border-radius: 15px;
+}
