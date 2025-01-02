@@ -5,17 +5,46 @@ import './App.css'
 function App() {
   
   function EHandling(){
-    alert("BHai muje kyu dabaya ");
+    alert("Happpy New Year");
+  }
+
+  const MouseEventHandling=()=>{
+    alert("Bola na tuje mat karo , sunle bhai meri kabhi tho")
+    
+  }
+  
+  const OnchangeEventHandle=(e)=>{
+    console.log("Abhi ta tune yeh likha hai : ", e.target.value);
+    
   }
 
 
 
   return (
-   <div>
+   <div style={
+    {display:"flex", 
+    justifyContent:"centre", 
+    alignItems:"center",
+    flexDirection:"column", 
+    gap:"1rem"}}>
+
+
+      <form >
+        <input type="text" onChange={OnchangeEventHandle} />
+      </form>
+      
+      <p onMouseOver={MouseEventHandling} style={{border:"1px solid black", padding:"0.5rem",  borderRadius:"15px", color:"white", backgroundColor:"black"}}>
+        Bhen ke laude , mere upar mouse pointer mat lekar aana
+      </p>
+      
       <button className='something' onClick={EHandling} >
         Click Me
       </button> 
+      
+
    </div>
+
+   
   )
 }
 
