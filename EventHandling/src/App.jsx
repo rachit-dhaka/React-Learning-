@@ -14,7 +14,7 @@ function App() {
   }
   
   const OnchangeEventHandle=(e)=>{
-    console.log("Abhi ta tune yeh likha hai : ", e.target.value);
+    console.log("You have written : ", e.target.value);
     
   }
 
