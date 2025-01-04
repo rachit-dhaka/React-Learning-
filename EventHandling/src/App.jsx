@@ -9,7 +9,7 @@ function App() {
   }
 
   const MouseEventHandling=()=>{
-    alert("Bola na tuje mat karo , sunle bhai meri kabhi tho")
+    alert("timepass")
     
   }
   
