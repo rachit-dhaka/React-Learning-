@@ -42,7 +42,12 @@ function App() {
       </button> 
 
 
-      <input style={{borderRadius:"15px", borderColor:"solid 1px black"}}>
+      <input style={{borderRadius:"15px", 
+        border:"None",
+         padding:"0.5rem", 
+         backgroundColor:"grey", 
+         color:"white"}}>
+
 
       </input>
       
