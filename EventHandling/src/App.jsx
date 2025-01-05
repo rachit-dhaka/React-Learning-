@@ -40,6 +40,11 @@ function App() {
       <button className='something' onClick={EHandling} >
         Click Me
       </button> 
+
+
+      <input style={{borderRadius:"15px", borderColor:"solid 1px black"}}>
+
+      </input>
       
 
    </div>
