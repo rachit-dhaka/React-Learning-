@@ -2,11 +2,12 @@ import { useState } from 'react'
 
 import './App.css'
 import { useEffect } from 'react'
+import LoggerComponent from './component/LoggerComponent'
+import Timer from './component/Timer'
 
 function App() {
 
-  const [count , counter]=useState(0);
-  const [total ,  totalCounter]=useState(1);
+
 
   // Variation:1
   // this paticular use effect hook will render on every event
@@ -46,51 +47,16 @@ function App() {
             // },[count])
 
 
-  const HandleClick=()=>{
-    counter(count+1);
-    
-  }
-
-  const HandleTotalClick=()=>{
-    totalCounter(total+1);
-  }
 
 
 
  
 
   return (
-
-    <div>
-      <button onClick={HandleClick}>
-      Click Me 
-    </button>
-
-    <p>
-      Number of Click = {count}
-    </p>
-
-    <br />
-
-
-    <button onClick={HandleTotalClick }>
-      Total Me 
-    </button>
-
-    <p>
-      Number of total = {total}
-    </p>      
-
-
-
-
-
-
-
-    </div>
-    
-
-
+      <div>
+        {/* <LoggerComponent/> */}
+        <Timer/>
+      </div>
   )
 }
 
