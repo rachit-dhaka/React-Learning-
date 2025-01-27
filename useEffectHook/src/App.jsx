@@ -36,14 +36,14 @@ function App() {
 
   // variation 5 
   // adding a clean up function 
-            useEffect(()=>{
-              alert("COunt Buuton is click and updated")
+            // useEffect(()=>{
+            //   alert("COunt Buuton is click and updated")
 
 
-              return()=>{
-                alert("Purana wala count hat gaya hai")
-              }
-            },[count])
+            //   return()=>{
+            //     alert("Purana wala count hat gaya hai")
+            //   }
+            // },[count])
 
 
   const HandleClick=()=>{
