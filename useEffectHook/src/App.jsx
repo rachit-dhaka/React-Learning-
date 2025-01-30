@@ -28,11 +28,11 @@ function App() {
           // },[count])
 
 
-  // variation 4
-            // useEffect(()=>{
-            //   alert("Bhai pe click karne pe alret dunga")
+//   variation 4
+//             useEffect(()=>{
+//               alert("Bhai pe click karne pe alret dunga")
 
-            // },[count,total])
+//             },[count,total])
 
 
   // variation 5 
@@ -55,7 +55,7 @@ function App() {
   return (
       <div>
         {/* <LoggerComponent/> */}
-        <Timer/>
+        {/* <Timer/> */}
       </div>
   )
 }
