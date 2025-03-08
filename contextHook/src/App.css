@@ -1,0 +1,9 @@
+.container{
+    height: 400px;
+    width: 400px;
+    border: 1px solid Black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: beige ;
+}
