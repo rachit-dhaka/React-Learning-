@@ -1,0 +1,15 @@
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    background-color: salmon;
+    height: 70px;
+    min-width: 1200px;
+    font-size: larger;
+
+
+
+
+}
