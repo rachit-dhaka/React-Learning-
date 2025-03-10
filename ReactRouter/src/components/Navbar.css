@@ -1,15 +1,35 @@
-ul{
+ul {
     list-style: none;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
-
-    background-color: salmon;
-    height: 70px;
+    padding: 0 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    height: 44px;
     min-width: 1200px;
-    font-size: larger;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif;
+}
 
+ul li {
+    padding: 0 15px;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}
 
+ul li a {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    transition: opacity 0.3s ease;
+}
 
+ul li:hover a {
+    opacity: 0.65;
+}
 
+ul li:active a {
+    opacity: 0.45;
 }
