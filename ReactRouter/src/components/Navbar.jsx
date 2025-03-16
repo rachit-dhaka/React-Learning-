@@ -1,24 +1,21 @@
 import React from 'react'
-import Home from './Home'
-import About from './About'
-import Something from './Something'
-import { Link } from 'react-router-dom'
-import './Navbar.css'
+import { NavLink } from 'react-router-dom';
+import "./Navbar.css";
 
 const Navbar = () => {
   return (
-    <div>
+    <div className='ass'>
         <ul>
             <li>
-                <Link to="/"> Home </Link>
+                <NavLink to="/"> Home </NavLink>
             </li>
 
             <li>
-                <Link to="/about"> About </Link>
+                <NavLink to="/about"> About </NavLink>
             </li>
 
             <li>
-                <Link to="/something"> Something </Link>
+                <NavLink to="/nothing"> Nothing  </NavLink>
             </li>
         </ul>
     </div>
