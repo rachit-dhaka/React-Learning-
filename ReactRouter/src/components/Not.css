@@ -1,6 +1,9 @@
 .qwerty{
     height: 100vh;
+    background-color: #0c0c0c;
+    color: aliceblue;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }

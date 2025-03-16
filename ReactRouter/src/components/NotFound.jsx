@@ -5,7 +5,10 @@ const NotFound = () => {
   return (
     <div className='qwerty'>
         <p>
-            Page Not Found Bye
+            Page Not Found
+        </p>
+        <p>
+            Bye
         </p>
         
     </div>
