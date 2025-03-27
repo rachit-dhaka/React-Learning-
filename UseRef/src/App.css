@@ -40,3 +40,14 @@
 .read-the-docs {
   color: #888;
 }
+
+
+.something{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 2rem;
+}
+
+.nothing{
+  font-size: xx-large;
+}
