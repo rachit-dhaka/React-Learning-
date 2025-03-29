@@ -9,7 +9,7 @@ function App() {
   
   const HandleClick=useCallback(()=>{
     setCount (count+1);
-  });
+  }, []);
 
   return (
    <div>
