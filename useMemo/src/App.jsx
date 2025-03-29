@@ -4,13 +4,19 @@ import './App.css'
 function App() {
   const [val,setval]=useState(0);
   const [input,setinput]=useState(0);
+
+
   const HandleClick=()=>{
     setval(val+1);
   }
 
+  const HandleInputChange=(e)=>{
+    setinput(e.target.value);
+  }
+
   const ExpFuc=(num)=>{
     console.log("Bhaiya Fuction Chal hai ");
-    for(let i=0;i<10000000;i++){}
+    for(let i=0;i<10;i++){}
     return num*2;
   }
 
@@ -30,7 +36,7 @@ function App() {
     <input type="number"
     placeholder='Enter the Number'
     value={input}
-    onChange={(e)=>setinput(e.target.value)}
+    onChange={HandleInputChange}
      />
 
     <br />
