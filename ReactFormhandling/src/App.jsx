@@ -19,7 +19,6 @@ function App() {
    }
   //  const  onSubmit= as(data)=>{
   //   console.log("Form submit hjoo chuka hai ", data);
-    
   // }
   
   return (

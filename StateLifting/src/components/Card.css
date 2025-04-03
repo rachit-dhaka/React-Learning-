@@ -1,0 +1,31 @@
+.card-container {
+    padding: 20px;
+    border: 1px solid #444;
+    border-radius: 8px;
+    max-width: 300px;
+    margin: 20px auto;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    background-color: #2a2a2a;
+}
+
+.card-input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #444;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+.card-input:focus {
+    outline: none;
+    border-color: #666;
+}
+
+.card-text {
+    color: #fff;
+    font-size: 14px;
+    margin: 0;
+}
