@@ -70,4 +70,5 @@ Action -> Dispatch a actionm -> Store -> Reducer -> Changes the store value or s
 Reducer ka kaam : old state letha hai , ek action letha hai and oldState+Action => New State
 
 
+
 */
