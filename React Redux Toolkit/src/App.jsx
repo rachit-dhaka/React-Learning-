@@ -9,7 +9,7 @@ function App() {
   return (
     <div>
       State Management - React Redux
-      
+      Something
     </div>
   )
 }
